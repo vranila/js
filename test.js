@@ -1,3 +1,5 @@
-let sym = Symbol("id"); // symbol
+let person = {name :  "Arun", age : 18}
 
-console.log(typeof sym )
+for (let key in person) {
+    console.log(key, "=", person[key])
+}
