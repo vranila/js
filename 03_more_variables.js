@@ -1,3 +1,38 @@
+/**
+ * @fileoverview Demonstrates primitive and object data types in JavaScript, 
+ * along with variable declaration and type checking.
+ * 
+ * Sections included:
+ * 
+ * 1. **Primitive Types**
+ *    - Examples of `string`, `number`, `boolean`, `null`, `undefined`, `bigint`, and `symbol`.
+ *    - Shows how to declare and log each type.
+ * 
+ * 2. **Object Types**
+ *    - Demonstrates complex data types such as:
+ *        - `object` (e.g., person details)
+ *        - `array` (a list of numbers)
+ *        - `date` (current date and time)
+ * 
+ * 3. **Type Checking**
+ *    - Uses the `typeof` operator to check variable types.
+ *    - Notes JavaScript quirks, such as `typeof null` returning `"object"`.
+ * 
+ * 4. **Variable Declaration**
+ *    - Encourages use of `let` and `const` over `var` for better scope control.
+ * 
+ * 5. **Variable Reassignment**
+ *    - Demonstrates that variables declared with `let` can be reassigned.
+ *    - Variables declared with `const` cannot be reassigned.
+ * 
+ * This file provides a foundational overview of how JavaScript handles
+ * different data types and variable management.
+ */
+
+
+
+
+
 // Primitive Variables in JavaScript
 
 let name = "Alice"; // string
