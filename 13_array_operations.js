@@ -31,10 +31,18 @@ fruits.pop();     // removes last
 fruits.shift();   // removes first
 console.log("After removing:", fruits);
 
+// Print using index
+console.log(fruits[0]);
+
 // Slice (copy part)
 let nums = [1, 2, 3, 4, 5];
 let part = nums.slice(1, 4); // [2, 3, 4]
 console.log("Slice example:", part);
+
+// splice for removing a section
+let animals = ["Cat", "Dog", "Tiger", "Lion", "Elephant", "Deer"]
+animals.splice(1, 3);
+console.log(animals); // [ 'Cat', 'Elephant', 'Deer' ]
 
 // Splice (remove and insert)
 let colors = ["red", "green", "blue"];
@@ -42,8 +50,10 @@ colors.splice(1, 1, "yellow"); // remove 1 element at index 1, insert "yellow"
 console.log("Splice example:", colors);
 
 // Search examples
-let items = [10, 20, 30, 20];
-console.log("indexOf(20):", items.indexOf(20));
-console.log("lastIndexOf(20):", items.lastIndexOf(20));
-console.log("includes(30):", items.includes(30));
-console.log("Array length:", items.length);
+let items = [10, 20, 30, 20, 40];
+console.log("indexOf(20):", items.indexOf(20)); // Return the index of 20 from the array
+console.log("lastIndexOf(20):", items.lastIndexOf(20)); // Return the last index instead of usual first one
+console.log("includes(30):", items.includes(30)); // Check the value is inside the array or not here it is true
+console.log("includes(30):", items.includes(70)); // here it is false
+console.log("Array length:", items.length); // for length of the array
+
