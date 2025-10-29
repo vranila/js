@@ -1,3 +1,22 @@
+/**
+ * @fileoverview Demonstrates the use of arithmetic and comparison operators in JavaScript.
+ * 
+ * Sections included:
+ * 
+ * 1. **Arithmetic Operators**
+ *    - Shows basic mathematical operations (`+`, `-`, `*`, `/`, `%`, `**`).
+ *    - Illustrates how arithmetic operators work with numeric operands.
+ * 
+ * 2. **Comparison Operators**
+ *    - Demonstrates both loose (`==`, `!=`) and strict (`===`, `!==`) equality comparisons.
+ *    - Explains type coercion behavior in JavaScript comparisons.
+ * 
+ * 3. **Try It Yourself Section**
+ *    - Encourages testing with different variable types (number vs string) 
+ *      to understand equality and concatenation behavior.
+ */
+//////////////////////////////////////////////////////////////////////////////////////////////
+
 
 // ARITHMETIC OPERATORS
 

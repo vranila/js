@@ -1,5 +1,5 @@
-let person = {name :  "Arun", age : 18}
+let nums = [1, 2, 3, 4, 5, 6, 7, 8]
+console.log(nums)
+let part = nums.slice(3, 6);
 
-for (let key in person) {
-    console.log(key, "=", person[key])
-}
+console.log(part)
