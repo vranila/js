@@ -1,16 +1,13 @@
-let numbers = [10, 45, 23, 90, 5, 67, 12];
-let extra = [100, 200, 300];
-
-let merged = numbers.concat(extra)
 
 
-let max = merged[0];
-let min = merged[0];
 
-for (let n of merged) {
-    if (n < min) min = n;
-    if (n > max) max = n;
+function multiply(a, b= 2){
+    result = a * b;
+    return result
 }
 
+let a = 5;
+let b = 10;
+res = multiply(a);
 
-console.log("Test")
+console.log(res)
