@@ -1,6 +1,6 @@
 /* 
 -------------------------------------------------------------
-OBJECTS IN JAVASCRIPT — LIKE PYTHON DICTIONARIES 🧩
+OBJECTS (Map) IN JAVASCRIPT — LIKE PYTHON DICTIONARIES 🧩
 
 An Object in JS stores data as key–value pairs.
 It’s similar to Python’s dictionary, but syntax differs a bit.

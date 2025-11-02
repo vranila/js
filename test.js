@@ -1,35 +1,19 @@
-//---------------- PRACTICE YOUR CODE HERE --------------------//
+let library = {
+    name: "City Library",
+    books: [
+        { title: "The Hobbit", author: "J.R.R. Tolkien" },
+        { title: "1984", author: "George Orwell" },
+        { title: "The Alchemist", author: "Paulo Coelho" }
+    ]
+};
 
 
-let student = {
-    name : "Arun",
-    age : 33,
-    city : "padiyur"
+console.log("LIBRARY :", library.name);
+console.log("BOOKS :", library.books);
+
+console.log("-------------------------------------");
+
+
+for (let book of library.books) {
+    console.log("-", book.title, "by", book.author);
 }
-
-
-student.age = 22;
-student.country = "India";
-
-// for (key in student){
-//     console.log(key, ":", student[key])
-// }
-
-
-
-let person = {
-    name : "Bob",
-    address : {
-        city : "Paris",
-        zip: 123573
-    },
-    age : 44,
-    city : "Kannur"
-}
-
-// console.log(person.address.city)
-
-
-
-// console.log(Object.keys(person))
-console.log(Object.entries(person));
