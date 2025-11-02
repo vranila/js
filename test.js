@@ -1,19 +1,19 @@
-let library = {
-    name: "City Library",
-    books: [
-        { title: "The Hobbit", author: "J.R.R. Tolkien" },
-        { title: "1984", author: "George Orwell" },
-        { title: "The Alchemist", author: "Paulo Coelho" }
-    ]
-};
+let colors = ["red", "blue", "green"];
+for (let color in colors){
+    console.log(color, ":", colors[color]);
+}
+
+for (let color of colors){
+    console.log(color);
+}
 
 
-console.log("LIBRARY :", library.name);
-console.log("BOOKS :", library.books);
 
-console.log("-------------------------------------");
+let person = {name : "arun",
+    age : 33,
+    place : "kannur"
+}
 
-
-for (let book of library.books) {
-    console.log("-", book.title, "by", book.author);
+for (let key in  person) {
+    console.log(key, ":", person[key]);
 }
