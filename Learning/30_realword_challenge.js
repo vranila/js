@@ -42,7 +42,7 @@ function calculateReport(marks) {
   }
 
   let average = total / count;
-  return { total, average };   // Return both values as an object
+  return { total, average };   // Return both values as an object *** NOTE THIS ***
 }
 
 // -------------------------------------------------------------
