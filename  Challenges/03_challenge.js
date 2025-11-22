@@ -18,7 +18,6 @@ let text = "JavaScript is Awesome";
 
 // ---------- WRITE YOUR CODE BELOW ----------
 
-
 // Example idea:
 // function countVowels(str) { ... }
 // let result = countVowels(text);
@@ -67,3 +66,25 @@ let text = "JavaScript is Awesome";
 Vowel count: 8
 */
 // =====================================================
+
+
+
+
+
+
+
+
+
+
+
+// function countVowels(text){
+//     let vowels = "aeiouAEIOU";
+//     let count = 0;
+//     for (let letter of text){
+//         if (vowels.includes(letter)) {
+//             count++;
+//         }
+
+//     }
+//     return count;
+// }
