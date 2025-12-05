@@ -107,14 +107,14 @@ Output:
 
 let students = [
   { name: "Arun", age: 20 },
-  { name: "Divya", age: 21 },
-  { name: "Rahul", age: 22 }
+  { name: "Anila", age: 21 },
+  { name: "Akhil", age: 22 }
 ];
 
 // Extract only names into a NEW array
 let names = students.map(student => student.name);
 console.log("Names:", names);
-// Output: ["Arun", "Divya", "Rahul"]
+// Output: ["Arun", "Anila", "Akhil"]
 
 
 // Create a NEW transformed object for each student
@@ -132,8 +132,8 @@ console.log("Updated Students:", updated);
 Output:
 [
   { name: 'Arun', age: 20, isAdult: true },
-  { name: 'Divya', age: 21, isAdult: true },
-  { name: 'Rahul', age: 22, isAdult: true }
+  { name: 'Anila', age: 21, isAdult: true },
+  { name: 'Akhil', age: 22, isAdult: true }
 ]
 */
 
